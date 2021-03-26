@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tables</title>
+	<!-- css links -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/mdb.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<style type="text/css">
+	table{
+		box-shadow: 0 0 10px black;
+	}
+	.light-red{
+background-color:#f591ad;
+	}
+.bg-light-green{
+	background-color: lightgreen;
+}
+	</style>
+
+</head>
+<body>
+     <nav class="navbar navbar-dark bg-dark ">
+     	<a href="#">BS tables</a>
+     	
+     </nav>
+
+
+	<!--  start here -->
+<div class="container">
+<pre>
+.table
+.table-hover
+.table-bordered
+.table-borderless
+.table-dark(colors)
+.table-striped
+
+
+
+</pre>
+<table>	
+	<thead>
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Designation</th>
+			<th>Email Id</th>
+			<th>Salary</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>manisha</td>
+			<td>web Developer</td>
+			<td>manisha123@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+<tr>
+			<td>2</td>
+			<td>Sandhya</td>
+			<td>Bootstrap Developer</td>
+			<td>sandhya@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td>Sirisha</td>
+			<td>web Developer</td>
+			<td>Sirisha@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>dileep</td>
+			<td>php Developer</td>
+			<td>dileep@gmail.com</td>
+			<td>35k</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<br>	<br>	<br>	
+
+<!-- 1)normal table without classes -->
+<table class="table table-hover">	
+	<thead>
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Designation</th>
+			<th>Email Id</th>
+			<th>Salary</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>manisha</td>
+			<td>web Developer</td>
+			<td>manisha123@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+<tr>
+			<td>2</td>
+			<td>Sandhya</td>
+			<td>Bootstrap Developer</td>
+			<td>sandhya@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td>Sirisha</td>
+			<td>web Developer</td>
+			<td>Sirisha@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>dileep</td>
+			<td>php Developer</td>
+			<td>dileep@gmail.com</td>
+			<td>35k</td>
+		</tr>
+
+	</tbody>
+</table>
+
+
+<!-- 2)table with table class ,table-hover  -->
+
+<!-- 3)table with table class ,table-hover,table-bordered  -->
+<table class="table table-hover table-bordered table-dark">	
+	<thead>
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Designation</th>
+			<th>Email Id</th>
+			<th>Salary</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>manisha</td>
+			<td>web Developer</td>
+			<td>manisha123@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+<tr>
+			<td>2</td>
+			<td>Sandhya</td>
+			<td>Bootstrap Developer</td>
+			<td>sandhya@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td>Sirisha</td>
+			<td>web Developer</td>
+			<td>Sirisha@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>dileep</td>
+			<td>php Developer</td>
+			<td>dileep@gmail.com</td>
+			<td>35k</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<!-- 4)table with table class ,table-hover,table-dark  -->
+<table class="table table-hover table-bordered table-success">	
+	<thead>
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Designation</th>
+			<th>Email Id</th>
+			<th>Salary</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>manisha</td>
+			<td>web Developer</td>
+			<td>manisha123@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+<tr>
+			<td>2</td>
+			<td>Sandhya</td>
+			<td>Bootstrap Developer</td>
+			<td>sandhya@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td>Sirisha</td>
+			<td>web Developer</td>
+			<td>Sirisha@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>dileep</td>
+			<td>php Developer</td>
+			<td>dileep@gmail.com</td>
+			<td>35k</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<!-- 5)table with table class ,table-hover,table-header thick color,body light color  -->
+<table class="table table-hover ">	
+	<thead class="bg-danger text-white">
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Designation</th>
+			<th>Email Id</th>
+			<th>Salary</th>
+		</tr>
+	</thead>
+	<tbody class="light-red">
+		<tr>
+			<td>1</td>
+			<td>manisha</td>
+			<td>web Developer</td>
+			<td>manisha123@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+<tr>
+			<td>2</td>
+			<td>Sandhya</td>
+			<td>Bootstrap Developer</td>
+			<td>sandhya@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td>Sirisha</td>
+			<td>web Developer</td>
+			<td>Sirisha@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>dileep</td>
+			<td>php Developer</td>
+			<td>dileep@gmail.com</td>
+			<td>35k</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<!-- 6)table with table class ,table-striped  -->
+<table class="table table-hover table-striped table-bordered  text-center">	
+	<thead class="bg-success text-white">
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Designation</th>
+			<th>Email Id</th>
+			<th>Salary</th>
+		</tr>
+	</thead >
+	<tbody class="bg-light-green">
+		<tr>
+			<td>1</td>
+			<td>manisha</td>
+			<td>web Developer</td>
+			<td>manisha123@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+<tr>
+			<td>2</td>
+			<td>Sandhya</td>
+			<td>Bootstrap Developer</td>
+			<td>sandhya@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td>Sirisha</td>
+			<td>web Developer</td>
+			<td>Sirisha@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>dileep</td>
+			<td>php Developer</td>
+			<td>dileep@gmail.com</td>
+			<td>35k</td>
+		</tr>
+<tr>
+			<td>3</td>
+			<td>Sirisha</td>
+			<td>web Developer</td>
+			<td>Sirisha@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>dileep</td>
+			<td>php Developer</td>
+			<td>dileep@gmail.com</td>
+			<td>35k</td>
+		</tr><tr>
+			<td>3</td>
+			<td>Sirisha</td>
+			<td>web Developer</td>
+			<td>Sirisha@gmail.com</td>
+			<td>25k</td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>dileep</td>
+			<td>php Developer</td>
+			<td>dileep@gmail.com</td>
+			<td>35k</td>
+		</tr>
+	</tbody>
+</table>
+
+<br>	<br>	
+
+
+<div class="container">
+
+	<div class="jumbotron bg-light text-white">
+
+		<h1>bootstrap</h1>
+		<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>	<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+</div> <!-- container -->
+<!-- js links -->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/popper.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/mdb.js"></script>
+	
+</body>
+</html>
